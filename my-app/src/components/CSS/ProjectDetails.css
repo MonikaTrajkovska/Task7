@@ -1,0 +1,62 @@
+#pop-up{
+    position: fixed;
+    width: 100%;
+    height: 120%;
+    display: flex;
+    flex-direction: column;
+    margin-top: -700px;
+    margin-left: -30px;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.59);
+}
+.btn{
+    font-size: 20px; 
+    font-weight: bold;   
+}
+#detail-container {
+    width: 550px;
+    height: 550px;
+    background: #fff;
+    padding: 40px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#detail-text {
+    color: #575757;
+}
+
+#detail-text h1 {
+    font-size: 20px; 
+    font-weight: bold; 
+    margin: 0;
+} 
+h2{ font-size: 20px; 
+    font-weight: bold; 
+    margin: 0;
+
+}
+#detail-text p {
+    font-size: 18px;
+}
+
+
+.delete-btn {
+    width: 850px;
+    height: 255px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    outline: 0;
+    border:  0;
+}
+
+#cancel-btn {
+    color: #575757;
+    background: transparent;
+}
+

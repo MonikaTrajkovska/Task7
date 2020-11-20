@@ -1,0 +1,43 @@
+.App-header {
+    background-color:#68718b;
+    color: white;
+    padding: 15px 15px;
+
+    margin-top: -20px;
+    margin-bottom: 20px;
+    width: 98%;
+   
+  }
+  
+  .navbar-item {
+    color: white;
+  }
+  .navbar-brand{
+      display: flex;
+      justify-content: space-evenly;
+      
+  }
+  .App-title {
+    font-size: 1.5em;
+  }
+  
+  .App-intro {
+    font-size: large;
+  }
+
+  .card {
+    box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+  .card button {
+    border: none;
+    color: #3273dc;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  .card button:hover {
+    color: #363636;
+  }
+  
